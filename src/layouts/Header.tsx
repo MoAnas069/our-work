@@ -38,7 +38,7 @@ export const Header: React.FC = () => {
           {/* Mobile Layout & Logo */}
           <div className="flex md:hidden w-full items-center justify-between relative z-50">
             <Link href="/" className="relative z-10 flex items-center cursor-pointer group">
-              <span className="font-neuropol text-base font-bold tracking-widest text-white drop-shadow-md uppercase select-none">
+              <span className="font-neuropol text-base font-bold tracking-widest text-neonGreen text-glow-green uppercase select-none">
                 INTELLEX
               </span>
             </Link>
@@ -61,13 +61,13 @@ export const Header: React.FC = () => {
                   href={item.path}
                   className={`text-xs font-bold uppercase tracking-widest transition-all duration-300 relative py-1 ${
                     isActive
-                      ? "text-white drop-shadow-md"
-                      : "text-white/70 hover:text-white"
+                      ? "text-neonGreen text-glow-green"
+                      : "text-white/60 hover:text-white"
                   }`}
                 >
                   {item.name}
                   {isActive && (
-                    <span className="absolute bottom-0 left-0 w-full h-[1px] bg-white shadow-[0_0_8px_rgba(255,255,255,0.8)]" />
+                    <span className="absolute bottom-0 left-0 w-full h-[1px] bg-neonGreen shadow-[0_0_8px_#5CFF3D]" />
                   )}
                 </Link>
               );
@@ -77,7 +77,7 @@ export const Header: React.FC = () => {
           {/* Desktop Center Logo */}
           <div className="hidden md:flex w-1/3 justify-center">
             <Link href="/" className="relative z-10 flex items-center cursor-pointer group">
-              <span className="font-neuropol text-base font-bold tracking-[0.25em] text-white drop-shadow-md uppercase transition-all duration-300 group-hover:scale-105">
+              <span className="font-neuropol text-base font-bold tracking-[0.25em] text-neonGreen text-glow-green uppercase transition-all duration-300 group-hover:scale-105">
                 INTELLEX
               </span>
             </Link>
@@ -93,13 +93,13 @@ export const Header: React.FC = () => {
                   href={item.path}
                   className={`text-xs font-bold uppercase tracking-widest transition-all duration-300 relative py-1 ${
                     isActive
-                      ? "text-white drop-shadow-md"
-                      : "text-white/70 hover:text-white"
+                      ? "text-neonGreen text-glow-green"
+                      : "text-white/60 hover:text-white"
                   }`}
                 >
                   {item.name}
                   {isActive && (
-                    <span className="absolute bottom-0 left-0 w-full h-[1px] bg-white shadow-[0_0_8px_rgba(255,255,255,0.8)]" />
+                    <span className="absolute bottom-0 left-0 w-full h-[1px] bg-neonGreen shadow-[0_0_8px_#5CFF3D]" />
                   )}
                 </Link>
               );
@@ -125,8 +125,8 @@ export const Header: React.FC = () => {
                 onClick={() => setIsOpen(false)}
                 className={`text-xl font-bold uppercase tracking-widest transition-all duration-300 py-2 ${
                   isActive
-                    ? "text-white drop-shadow-md"
-                    : "text-white/70 hover:text-white"
+                    ? "text-neonGreen text-glow-green"
+                    : "text-white/50 hover:text-white"
                 }`}
               >
                 {item.name}
