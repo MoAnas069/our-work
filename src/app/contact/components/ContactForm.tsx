@@ -39,30 +39,30 @@ export const ContactForm: React.FC = () => {
   const contactCards = [
     {
       title: "Direct Calling",
-      value: "+1 (213) 456-7890",
+      value: "+91 85900 74043",
       icon: <Phone className="w-5 h-5 text-cyberGreen" />,
-      link: "tel:+12134567890",
+      link: "tel:+918590074043",
       label: "Call Now",
     },
     {
       title: "Secure Email",
-      value: "hello@intellex.studio",
+      value: "web.intellex@gmail.com",
       icon: <Mail className="w-5 h-5 text-cyberMint" />,
-      link: "mailto:hello@intellex.studio",
+      link: "mailto:web.intellex@gmail.com",
       label: "Send Email",
     },
     {
       title: "Command Center HQ",
-      value: "Los Angeles, California",
+      value: "Moodabidri, Mangalore, KA",
       icon: <MapPin className="w-5 h-5 text-cyberAccent" />,
-      link: "https://maps.google.com",
+      link: "https://maps.google.com/?q=Moodabidri,+Mangalore,+Karnataka,+India",
       label: "Get Directions",
     },
     {
       title: "Instant Chat",
       value: "WhatsApp Business",
       icon: <MessageSquare className="w-5 h-5 text-cyberGreen" />,
-      link: "https://wa.me/12134567890",
+      link: "https://wa.me/918590074043",
       label: "Message Us",
     },
   ];
@@ -183,7 +183,7 @@ export const ContactForm: React.FC = () => {
                       required
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      placeholder="e.g. +1 (213) 456-7890"
+                      placeholder="e.g. +91 85900 74043"
                       className="w-full bg-white/[0.01] border border-white/5 focus:border-cyberGreen focus:shadow-[0_0_15px_rgba(57,255,20,0.15)] focus:outline-none px-4 py-3 rounded-xl text-xs text-white transition-all duration-200"
                     />
                   </div>
