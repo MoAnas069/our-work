@@ -30,9 +30,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: "amal",
     name: "Amal",
-    role: "Lead Architect & Founder",
-    category: "Leadership",
-    bio: "Pioneering high-performance web applications, futuristic UI systems, and strategic technology solutions at Intellex.",
+    role: "Developer",
+    category: "Development",
+    bio: "Lead Developer specializing in high-performance web systems, Next.js architecture, and ultra-responsive user interfaces.",
     avatar: "/images/Amal.jpeg",
     neonColor: "#00F0FF", // Electric Cyan
     glowGradient: "from-[#00F0FF] via-[#A855F7] to-[#EC4899]",
@@ -43,9 +43,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: "hari",
     name: "Hari",
-    role: "Senior Full-Stack Developer",
+    role: "Developer",
     category: "Development",
-    bio: "Building robust microservices backend infrastructure and reactive front-end interfaces with 60 FPS performance.",
+    bio: "Full-Stack Developer focused on building low-latency API infrastructure, real-time databases, and scalable cloud services.",
     avatar: "/images/Hari.jpeg",
     neonColor: "#5CFF3D", // Intellex Neon Green
     glowGradient: "from-[#5CFF3D] via-[#00FF99] to-[#00F0FF]",
@@ -56,9 +56,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: "jinan",
     name: "Jinan",
-    role: "Lead AI & Machine Learning Engineer",
-    category: "AI/ML",
-    bio: "Architecting generative AI algorithms, neural network integration, and intelligent automation systems.",
+    role: "Developer",
+    category: "Development",
+    bio: "AI Developer engineering intelligent automation algorithms, custom neural models, and generative technology solutions.",
     avatar: "/images/Jinan.jpeg",
     neonColor: "#A855F7", // Cyber Purple
     glowGradient: "from-[#A855F7] via-[#EC4899] to-[#00F0FF]",
@@ -69,9 +69,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: "lubna",
     name: "Lubna",
-    role: "Head of UI/UX Design",
-    category: "Design",
-    bio: "Crafting modern glassmorphism visual identities, intuitive user flows, and sleek digital experiences.",
+    role: "Developer",
+    category: "Development",
+    bio: "Frontend Developer crafting pixel-perfect glassmorphic layouts, fluid interactive components, and sleek web aesthetics.",
     avatar: "/images/Lubna.jpeg",
     neonColor: "#EC4899", // Hot Pink
     glowGradient: "from-[#EC4899] via-[#F43F5E] to-[#EAB308]",
@@ -82,9 +82,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: "neja",
     name: "Neja",
-    role: "Motion & Creative Director",
-    category: "Media",
-    bio: "Directing high-end 3D graphics, interactive animations, and visual storytelling for digital brand launches.",
+    role: "Developer",
+    category: "Development",
+    bio: "Creative Developer pushing the boundaries of 3D WebGL renders, GPU acceleration, and rich interactive web motion.",
     avatar: "/images/Neja.jpeg",
     neonColor: "#EAB308", // Neon Gold
     glowGradient: "from-[#EAB308] via-[#F97316] to-[#00F0FF]",
@@ -95,9 +95,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: "shiv-shankar",
     name: "Shiv Shankar",
-    role: "DevOps & Cloud Systems Architect",
+    role: "Developer",
     category: "Development",
-    bio: "Optimizing cloud deployment pipelines, Kubernetes clusters, and zero-downtime server scaling.",
+    bio: "Backend & Systems Developer dedicated to high-concurrency microservices, cloud security, and robust DevOps automation.",
     avatar: "/images/Shiv Shankar.jpeg",
     neonColor: "#3B82F6", // Ocean Blue
     glowGradient: "from-[#3B82F6] via-[#06B6D4] to-[#A855F7]",
@@ -108,9 +108,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: "shivganga",
     name: "Shivganga",
-    role: "Growth & Digital Marketing Lead",
-    category: "Marketing",
-    bio: "Driving performance marketing campaigns, data-backed conversion optimization, and brand scaling strategies.",
+    role: "Developer",
+    category: "Development",
+    bio: "Web Developer implementing data-driven performance optimizations, SEO infrastructure, and rapid web feature delivery.",
     avatar: "/images/Shivganga.jpeg",
     neonColor: "#8B5CF6", // Electric Violet
     glowGradient: "from-[#8B5CF6] via-[#EC4899] to-[#00F0FF]",
@@ -121,9 +121,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: "shiyara",
     name: "Shiyara",
-    role: "Head of Operations & Client Success",
-    category: "Operations",
-    bio: "Managing cross-functional team execution, agile workflows, and ensuring client goals are exceeded.",
+    role: "Developer",
+    category: "Development",
+    bio: "Software Developer ensuring clean code architecture, efficient component libraries, and seamless cross-platform execution.",
     avatar: "/images/Shiyara.jpeg",
     neonColor: "#F97316", // Neon Orange
     glowGradient: "from-[#F97316] via-[#EAB308] to-[#EC4899]",
@@ -134,9 +134,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: "sinan",
     name: "Sinan",
-    role: "Enterprise Sales Director",
-    category: "Sales",
-    bio: "Fostering long-term strategic enterprise partnerships and bringing cutting-edge technology to global clients.",
+    role: "Developer",
+    category: "Development",
+    bio: "Solutions Developer bridging complex business logic with modern web technologies and enterprise integrations.",
     avatar: "/images/Sinan.jpeg",
     neonColor: "#06B6D4", // Cyber Teal
     glowGradient: "from-[#06B6D4] via-[#3B82F6] to-[#A855F7]",
