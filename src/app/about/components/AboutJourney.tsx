@@ -1,5 +1,6 @@
 import React from "react";
 import { Key, Archive, ThumbsUp, Lock, Globe } from "lucide-react";
+import { ScratchCard } from "../../../components/ScratchCard";
 
 export const AboutJourney: React.FC = () => {
   return (
@@ -20,50 +21,54 @@ export const AboutJourney: React.FC = () => {
           
           {/* Card 1: Launched */}
           <div className="relative group p-[2px] rounded-2xl overflow-hidden bg-gradient-to-br from-neonGreen/60 via-neonGreen/20 to-transparent shadow-[0_0_20px_rgba(92,255,61,0.1)] hover:shadow-[0_0_30px_rgba(92,255,61,0.25)] transition-all duration-500">
-            <div className="bg-[#0f1510] h-full rounded-2xl p-8 flex flex-col items-center justify-center min-h-[220px] relative overflow-hidden backdrop-blur-sm">
-              <div className="absolute inset-0 opacity-5 bg-[url('https://www.transparenttextures.com/patterns/brushed-alum.png')] z-0 pointer-events-none mix-blend-overlay"></div>
-              
-              <div className="relative z-10 text-center flex flex-col items-center w-full">
-                <span className="text-neonGreen text-[10px] font-bold tracking-[0.2em] uppercase mb-2">Unlocked</span>
+            <ScratchCard coverColor="#151515" className="h-full rounded-2xl">
+              <div className="bg-[#0f1510] h-full rounded-2xl p-8 flex flex-col items-center justify-center min-h-[220px] relative overflow-hidden backdrop-blur-sm">
+                <div className="absolute inset-0 opacity-5 bg-[url('https://www.transparenttextures.com/patterns/brushed-alum.png')] z-0 pointer-events-none mix-blend-overlay"></div>
                 
-                {/* Paint stroke text background simulation */}
-                <div className="relative inline-flex items-center justify-center my-3 py-2 px-6 w-full max-w-[280px]">
-                  <div className="absolute inset-0 bg-white/10 -skew-x-12 rounded-sm transform scale-110"></div>
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent -skew-x-12 blur-[1px]"></div>
-                  <h3 className="relative text-2xl font-black text-gray-200 tracking-wide uppercase italic mix-blend-screen drop-shadow-md">
-                    LAUNCHED: 2021
-                  </h3>
-                </div>
-                
-                <div className="flex items-center gap-4 mt-4 text-neonGreen">
-                  <Key className="w-7 h-7 drop-shadow-[0_0_8px_rgba(92,255,61,0.8)]" />
-                  <Archive className="w-7 h-7 drop-shadow-[0_0_8px_rgba(92,255,61,0.8)]" />
+                <div className="relative z-10 text-center flex flex-col items-center w-full">
+                  <span className="text-neonGreen text-[10px] font-bold tracking-[0.2em] uppercase mb-2">Unlocked</span>
+                  
+                  {/* Paint stroke text background simulation */}
+                  <div className="relative inline-flex items-center justify-center my-3 py-2 px-6 w-full max-w-[280px]">
+                    <div className="absolute inset-0 bg-white/10 -skew-x-12 rounded-sm transform scale-110"></div>
+                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent -skew-x-12 blur-[1px]"></div>
+                    <h3 className="relative text-2xl font-black text-gray-200 tracking-wide uppercase italic mix-blend-screen drop-shadow-md">
+                      LAUNCHED: 2021
+                    </h3>
+                  </div>
+                  
+                  <div className="flex items-center gap-4 mt-4 text-neonGreen">
+                    <Key className="w-7 h-7 drop-shadow-[0_0_8px_rgba(92,255,61,0.8)]" />
+                    <Archive className="w-7 h-7 drop-shadow-[0_0_8px_rgba(92,255,61,0.8)]" />
+                  </div>
                 </div>
               </div>
-            </div>
+            </ScratchCard>
           </div>
 
           {/* Card 2: Users */}
           <div className="relative group p-[2px] rounded-2xl overflow-hidden bg-gradient-to-br from-neonGreen/60 via-neonGreen/20 to-transparent shadow-[0_0_20px_rgba(92,255,61,0.1)] hover:shadow-[0_0_30px_rgba(92,255,61,0.25)] transition-all duration-500">
-            <div className="bg-[#0f1510] h-full rounded-2xl p-8 flex flex-col items-center justify-center min-h-[220px] relative overflow-hidden backdrop-blur-sm">
-              <div className="absolute inset-0 opacity-5 bg-[url('https://www.transparenttextures.com/patterns/brushed-alum.png')] z-0 pointer-events-none mix-blend-overlay"></div>
-              
-              <div className="relative z-10 text-center flex flex-col items-center w-full">
-                <span className="text-neonGreen text-[10px] font-bold tracking-[0.2em] uppercase mb-2">Unlocked</span>
+            <ScratchCard coverColor="#151515" className="h-full rounded-2xl">
+              <div className="bg-[#0f1510] h-full rounded-2xl p-8 flex flex-col items-center justify-center min-h-[220px] relative overflow-hidden backdrop-blur-sm">
+                <div className="absolute inset-0 opacity-5 bg-[url('https://www.transparenttextures.com/patterns/brushed-alum.png')] z-0 pointer-events-none mix-blend-overlay"></div>
                 
-                <div className="relative inline-flex items-center justify-center my-3 py-2 px-6 w-full max-w-[280px]">
-                  <div className="absolute inset-0 bg-white/10 -skew-x-12 rounded-sm transform scale-110"></div>
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent -skew-x-12 blur-[1px]"></div>
-                  <h3 className="relative text-2xl font-black text-gray-200 tracking-wide uppercase italic mix-blend-screen drop-shadow-md">
-                    OVER 1000 USERS
-                  </h3>
-                </div>
-                
-                <div className="flex items-center gap-4 mt-4 text-neonGreen">
-                  <ThumbsUp className="w-7 h-7 drop-shadow-[0_0_8px_rgba(92,255,61,0.8)]" />
+                <div className="relative z-10 text-center flex flex-col items-center w-full">
+                  <span className="text-neonGreen text-[10px] font-bold tracking-[0.2em] uppercase mb-2">Unlocked</span>
+                  
+                  <div className="relative inline-flex items-center justify-center my-3 py-2 px-6 w-full max-w-[280px]">
+                    <div className="absolute inset-0 bg-white/10 -skew-x-12 rounded-sm transform scale-110"></div>
+                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent -skew-x-12 blur-[1px]"></div>
+                    <h3 className="relative text-2xl font-black text-gray-200 tracking-wide uppercase italic mix-blend-screen drop-shadow-md">
+                      OVER 1000 USERS
+                    </h3>
+                  </div>
+                  
+                  <div className="flex items-center gap-4 mt-4 text-neonGreen">
+                    <ThumbsUp className="w-7 h-7 drop-shadow-[0_0_8px_rgba(92,255,61,0.8)]" />
+                  </div>
                 </div>
               </div>
-            </div>
+            </ScratchCard>
           </div>
 
           {/* Card 3: Locked Goal */}

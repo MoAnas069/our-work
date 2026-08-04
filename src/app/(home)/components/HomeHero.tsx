@@ -29,6 +29,8 @@ export const HomeHero: React.FC = () => {
             className="filter drop-shadow-[0_0_20px_rgba(255,255,255,0.55)] font-bold tracking-widest"
           />
         </div>
+        
+
       </div>
 
     </section>
