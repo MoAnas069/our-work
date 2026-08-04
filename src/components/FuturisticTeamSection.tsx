@@ -74,17 +74,6 @@ export const FuturisticTeamSection: React.FC = () => {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [navigate]);
 
-  // Mouse Wheel navigation
-  const handleWheel = (e: React.WheelEvent) => {
-    if (Math.abs(e.deltaX) > 20 || Math.abs(e.deltaY) > 30) {
-      if (e.deltaX > 20 || e.deltaY > 30) {
-        navigate("next");
-      } else {
-        navigate("prev");
-      }
-    }
-  };
-
   // Drag handling
   const handlePointerDown = (e: React.PointerEvent) => {
     setIsDragging(true);
@@ -122,7 +111,6 @@ export const FuturisticTeamSection: React.FC = () => {
         setIsHovered(false);
         setIsCircleHovered(false);
       }}
-      onWheel={handleWheel}
       className="relative w-full min-h-[920px] bg-[#09090B] text-white py-20 px-4 overflow-hidden select-none flex flex-col justify-between items-center"
     >
       {/* Background Animated Gradient Grid & Soft Floating Particles */}
