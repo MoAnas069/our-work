@@ -10,6 +10,8 @@ export const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const leftNavItems = [
+    { name: "Solutions", path: "/works" },
+    { name: "Technology", path: "/#services" },
     { name: "Our Work", path: "/works" },
     { name: "Our Team", path: "/team" },
   ];
@@ -20,6 +22,8 @@ export const Header: React.FC = () => {
   ];
 
   const allNavItems = [
+    { name: "Solutions", path: "/works" },
+    { name: "Technology", path: "/#services" },
     { name: "Our Work", path: "/works" },
     { name: "Our Team", path: "/team" },
     { name: "About", path: "/about" },

@@ -2,7 +2,6 @@ import React from "react";
 import { Header } from "../../layouts/Header";
 import { Footer } from "../../layouts/Footer";
 import { HomeHero } from "./components/HomeHero";
-import { HomeServices } from "./components/HomeServices";
 
 export default function HomePage() {
   return (
@@ -13,7 +12,6 @@ export default function HomePage() {
       {/* Main Sections */}
       <main className="flex-1 w-full flex flex-col pt-20">
         <HomeHero />
-        <HomeServices />
       </main>
 
       {/* Footer */}
