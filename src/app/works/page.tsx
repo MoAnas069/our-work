@@ -103,7 +103,7 @@ export default function WorksPage() {
       </section>
 
       {/* Footer Layout */}
-      <Footer />
+      <Footer minimal />
     </div>
   );
 }
